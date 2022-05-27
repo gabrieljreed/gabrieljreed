@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 - :raising_hand: I'm a CS Animation major at Brigham Young University in Provo 
-- 🔭 I’m currently working as a Pipeline TD at [Studio Zubio]https://www.studiozubio.com/
+- 🔭 I’m currently working as a Pipeline TD at [Studio Zubio](https://www.studiozubio.com/)
 - 📫 How to reach me: gabrieljreed@gmail.com
 
 <!--

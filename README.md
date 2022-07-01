@@ -1,8 +1,25 @@
-### Hi there 👋
+## Hi there 👋
 
 - :raising_hand: I'm a CS Animation major at Brigham Young University in Provo 
 - 🔭 I’m currently working as a Pipeline TD at [Studio Zubio](https://www.studiozubio.com/)
 - 📫 How to reach me: gabrieljreed@gmail.com
+
+### Github Stats
+![Gabe's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabrieljreed&theme=swift&show_icons=true&count_private=true&hide_rank=true) <br>
+
+### Languages & Tools
+<a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/python-5.svg"/> </a>
+<a href="https://www.w3schools.com/cpp/" target="_blank"> <img align="left" alt="C++" width="26px" src=https://github.com/gabrieljreed/gabrieljreed/blob/main/images/c%2B%2B.png/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img align="left" alt="git" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/git.svg"/> </a>
+<img align="left" alt="GitHub" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/github.svg" />
+
+<br>
+
+### Softwares 
+<a href="https://www.blender.org" target="_blank"> <img align="left" alt="Maya" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/maya.png"/> </a>
+<a href="https://www.blender.org" target="_blank"> <img align="left" alt="Maya" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/pycharm.png"/> </a>
+<a href="https://www.blender.org" target="_blank"> <img align="left" alt="Maya" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/xcode.png"/> </a>
+<a href="https://www.blender.org" target="_blank"> <img align="left" alt="Blender" width="26px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/blender.png?raw=true"/> </a>
 
 <!--
 **gabrieljreed/gabrieljreed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

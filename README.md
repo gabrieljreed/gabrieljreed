@@ -4,7 +4,7 @@
 - 🔭 I’m currently working as a Pipeline TD at [Studio Zubio](https://www.studiozubio.com/)
 - 📫 How to reach me: gabrieljreed@gmail.com
 
-### Github Stats
+
 ![Gabe's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabrieljreed&theme=swift&show_icons=true&count_private=true&hide_rank=true) <br>
 
 ### Languages & Tools

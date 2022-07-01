@@ -9,6 +9,7 @@
 
 ### Languages & Tools
 <a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/python-5.svg"/> </a>
+<a href="https://www.python.org" target="_blank"> <img align="left" alt="Qt" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/Qt_logo_2016.svg.png"/> </a>
 <a href="https://www.w3schools.com/cpp/" target="_blank"> <img align="left" alt="C++" width="26px" src=https://github.com/gabrieljreed/gabrieljreed/blob/main/images/c%2B%2B.png/> </a>
 <a href="https://git-scm.com/" target="_blank"> <img align="left" alt="git" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/git.svg"/> </a>
 <img align="left" alt="GitHub" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/github.svg" />

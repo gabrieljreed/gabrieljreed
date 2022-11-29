@@ -1,0 +1,20 @@
+set number
+set relativenumber
+
+let mapleader=" "
+
+nmap <leader>o o<Esc>
+nmap <leader>O O<Esc>
+
+nmap <leader>r ^Da
+nmap <leader>d 0D
+
+nmap <leader>tc :tabclose<CR>
+
+set ideajoin
+
+nmap gh :action QuickJavaDoc<CR>
+nnoremap <leader>b :action Back<CR>
+nnoremap <leader>n :action Forward<CR>
+
+nnoremap <leader>cf :action ReformatCode<CR>

@@ -10,6 +10,7 @@ nmap <leader>O O<Esc>
 
 nmap <leader>r ^Da
 nmap <leader>d 0D
+nmap <leader>p "0p
 
 nmap gl $
 nmap gh ^

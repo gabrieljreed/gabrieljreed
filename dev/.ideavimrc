@@ -12,6 +12,7 @@ nmap <leader>p "0p
 
 nmap gl $
 nmap gh ^
+nmap <leader><CR> i<CR><Esc>
 
 nmap <leader>tc :tabclose<CR>
 

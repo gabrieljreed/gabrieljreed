@@ -8,7 +8,7 @@
 I specialize in automating processes and writing artist-friendly tools. I mainly use Qt and Python, and have written tools for Autodesk Maya, Abode Substance 3D Painter, SideFX Houdini, and the Foundry's Nuke. 
 
 
-![Gabe's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabrieljreed&theme=swift&show_icons=true&count_private=true&hide_rank=true) <br>
+![Gabe's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabrieljreed&theme=swift&show_icons=true&count_private=true&hide_rank=false) <br>
 
 ### Languages & Tools
 <a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" width="26px" src="https://github.com/gabrieljreed/gabrieljreed/blob/main/images/python-5.svg"/> </a>

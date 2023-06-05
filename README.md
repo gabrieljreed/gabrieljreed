@@ -4,9 +4,9 @@
 - 🔭 I’m currently working as a Pipeline TD at [Studio Zubio](https://www.studiozubio.com/)
 - 📫 How to reach me: gabrieljreed@gmail.com
 
-
 I specialize in automating processes and writing artist-friendly tools. I mainly use Qt and Python, and have written tools for Autodesk Maya, Abode Substance 3D Painter, SideFX Houdini, and the Foundry's Nuke. 
 
+[![wakatime](https://wakatime.com/badge/user/c358b528-a1b4-4ea9-8d0e-5b3378809181.svg)](https://wakatime.com/@c358b528-a1b4-4ea9-8d0e-5b3378809181)
 
 ![Gabe's GitHub stats](https://github-readme-stats.vercel.app/api?username=gabrieljreed&theme=swift&show_icons=true&count_private=true&hide_rank=true) <br>
 

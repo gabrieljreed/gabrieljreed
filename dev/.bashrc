@@ -27,5 +27,7 @@ fi
 unset rc
 
 alias byussh="ssh gjr215@schizo.cs.byu.edu"
-alias gp='git push -u origin HEAD'
+alias push='git push -u origin HEAD'
 alias gitlog='git log --oneline --graph'
+alias checkout='git checkout'
+alias branch='git branch'

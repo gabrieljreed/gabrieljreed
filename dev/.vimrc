@@ -14,8 +14,10 @@ nmap <leader>p "0p
 
 nmap gl $
 nmap gh ^
+nmap gH 0
 vmap gl $
 vmap gh ^
+vmap gH 0
 
 nmap J gj
 nmap K gk

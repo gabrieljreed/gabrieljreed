@@ -1,0 +1,15 @@
+[user]
+	name = Gabriel Reed
+	email = gabrieljreed@gmail.com
+[core]
+	editor = nvim
+[diff]
+	tool = nvimdiff
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	autoSetupRemote = true
+

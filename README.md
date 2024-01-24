@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- 🔭 I’m currently working as a Pipeline TD at [Studio Zubio](https://www.studiozubio.com/)
+- 🔭 I’m currently working as a Pipeline TD at [LAIKA Studios](https://www.laika.com/)
 - 📫 How to reach me: gabrieljreed@gmail.com
 
 I specialize in automating processes and writing artist-friendly tools. I mainly use Qt and Python, and have written tools for Autodesk Maya, Abode Substance 3D Painter, SideFX Houdini, and the Foundry's Nuke. 

@@ -1,9 +1,12 @@
 set number
 set relativenumber
 set cursorline
+set autoindent
 :hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkred guifg=white
 
 let mapleader=" "
+
+nmap <leader>/ :noh
 
 nmap <leader>o o<Esc>
 nmap <leader>O O<Esc>
@@ -27,4 +30,8 @@ vmap K gk
 nmap <leader>b <c-o>
 nmap <leader>n <c-i>
 
-command Q qa
+command Q qa!
+
+inoremap <D-c> <Esc>
+inoremap jj <Esc>
+

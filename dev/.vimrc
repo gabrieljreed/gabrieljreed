@@ -14,6 +14,10 @@ nmap <leader>O O<Esc>
 nmap <leader>r ^Da
 nmap <leader>d 0D
 nmap <leader>p "0p
+nmap <leader>P "*p
+nnoremap <leader>J J
+nnoremap <leader>yy "*yy
+nnoremap <leader>y "*y
 
 nmap gl $
 nmap gh ^
@@ -22,10 +26,11 @@ vmap gl $
 vmap gh ^
 vmap gH 0
 
-nmap J gj
-nmap K gk
-vmap J gj
-vmap K gk
+nnoremap J gj
+nnoremap K gk
+vnoremap J gj
+vnoremap K gk
+vnoremap <leader>y "*y
 
 nmap <leader>b <c-o>
 nmap <leader>n <c-i>
@@ -35,3 +40,4 @@ command Q qa!
 inoremap <D-c> <Esc>
 inoremap jj <Esc>
 
+nnoremap n nzz

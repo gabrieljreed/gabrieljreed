@@ -1,0 +1,3 @@
+Set-PSReadLineOption -EditMode vi
+Set-PSReadLineOption -ViModeIndicator Cursor
+Set-PSReadLineKeyHandler -Chord Tab -Function Complete

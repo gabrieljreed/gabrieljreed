@@ -5,14 +5,34 @@
 	editor = nvim
 [diff]
 	tool = nvimdiff
+	algorithm = histogram  # Improved diffing algorithm
+	colorMoved = plain  # Color moved text a different color than added/deleted text
+	renames = true  # Detect renamed files
+[push]
+	autoSetupRemote = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[push]
-	autoSetupRemote = true
 [alias]
-        last = log -1 HEAD
-        l = log --oneline -n 10
-	fp = "!git fetch -p && git pull"
+	last = log -1 HEAD
+	l = log --oneline -n 10
+	su = stash --keep-index -u  # Stash untracked
+	dt = difftool
+	unstage = reset HEAD --
+	fp = !git fetch -p && git pull
+[core]
+	autocrlf = false
+    eol = lf
+	excludesfile = ~/.config/git/ignore  # Global gitignore file
+[advice]
+	addIgnoredFile = false
+[credential]
+	helper = manager
+[fetch]
+	prune = true  # Keeps branches up to date with origin
+	pruneTags = true  # Keeps tags up to date with origin
+	all = true
+[commit]
+	verbose = true  # Puts diff output in commit message so you can see what you're committing

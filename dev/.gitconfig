@@ -36,3 +36,5 @@
 	all = true
 [commit]
 	verbose = true  # Puts diff output in commit message so you can see what you're committing
+[init]
+    defaultBranch = main

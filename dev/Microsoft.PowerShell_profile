@@ -1,3 +1,16 @@
 Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -ViModeIndicator Cursor
 Set-PSReadLineKeyHandler -Chord Tab -Function Complete
+
+$GitPromptSettings.DefaultPromptPrefix.Text = '$(Get-Date -f "MM-dd HH:mm:ss") '
+$GitPromptSettings.DefaultPromptPrefix.ForegroundColor = [ConsoleColor]::Magenta
+$GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true
+
+function Run-PreCommit { pre-commit run -a }
+Set-Alias -Name pc -Value Run-PreCommit
+function Run-LazyGit { lazygit }
+Set-Alias -Name lg -Value Run-LazyGit
+function Activate-Venv { venv/scripts/activate }
+Set-Alias -Name v -Value Activate-Venv
+
+Invoke-Expression (& { (zoxide init powershell | Out-String) })

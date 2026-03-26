@@ -1,6 +1,3 @@
-" Yank to system clipboard
-" set clipboard=unnamed
-
 unmap <Space>
 
 nmap <Space>o o<Esc>
@@ -14,7 +11,7 @@ nnoremap <Space>y "+y
 nnoremap <Space>yy "+yy
 vnoremap <Space>y "+y
 nnoremap <Space>J J
-nnoremap <Space>` i`<Esc>Ea`<Esc>
+nnoremap <Space>` viWB<Esc>i`<Esc>Ea`<Esc>
 
 nmap gl $
 nmap gh ^
@@ -42,4 +39,4 @@ nnoremap K gk
 vnoremap J gj
 vnoremap K gk
 
-nmap <Space>/ :nohl
+nmap <Space>/ :nohl<Cr>

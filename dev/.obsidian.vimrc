@@ -40,3 +40,8 @@ vnoremap J gj
 vnoremap K gk
 
 nmap <Space>/ :nohl<Cr>
+
+exmap tabnext obcommand workspace:next-tab
+nmap gt :tabnext<Cr>
+exmap tabprev obcommand workspace:previous-tab
+nmap gT :tabprev<Cr>

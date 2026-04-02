@@ -2,6 +2,10 @@ Set-PSReadLineOption -EditMode vi
 Set-PSReadLineOption -ViModeIndicator Cursor
 Set-PSReadLineKeyHandler -Chord Tab -Function Complete
 
+if ($env:TERM_PROGRAM -eq "vscode") {
+    Set-PSReadLineKeyHandler -Chord 'Ctrl+w' -Function BackwardKillWord
+}
+
 $GitPromptSettings.DefaultPromptPrefix.Text = '$(Get-Date -f "MM-dd HH:mm:ss") '
 $GitPromptSettings.DefaultPromptPrefix.ForegroundColor = [ConsoleColor]::Magenta
 $GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true

@@ -22,7 +22,9 @@
 	dt = difftool
 	unstage = reset HEAD --
 	fp = !git fetch -p && git pull
-	cl = "!git add CHANGELOG.md && git commit -m \"Update changelog\" && git push"
+	cl = "!git add CHANGELOG.md && git commit -m \"Update changelog\""
+    parent = "!git for-each-ref --format='%(refname:short)' refs/heads | grep -vx \"$(git branch --show-current)\" | while read b; do echo \"$(git rev-list --count $b..HEAD) $b\"; done | sort -n | head -1 | cut -d' ' -f2"
+    pstat = "!git diff --stat $(git merge-base $(git parent) HEAD)"
 [core]
 	autocrlf = false
     eol = lf
@@ -39,3 +41,6 @@
 	verbose = true  # Puts diff output in commit message so you can see what you're committing
 [init]
     defaultBranch = main
+[rerere]
+	autoupdate = true
+	enabled = true
